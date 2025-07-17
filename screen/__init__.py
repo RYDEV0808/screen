@@ -1,3 +1,7 @@
+# To get previous versions of setup, select "Blame" (top-left)
+# Please read "README.md" in the repository's Files
+# Download this file
+
 def scan() :
     try :
         import pygame
