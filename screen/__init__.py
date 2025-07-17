@@ -31,14 +31,12 @@ scan()
 import pygame
 
 class Screen :
-        def __init__(self, width, height,caption) :
-
+        def __init__(self, width, height,caption) :\
             self.width = width
             self.height = height
             self.caption = caption
 
             self.display = pygame.display.set_mode((self.width, self.height))
-
         def GetScreen(self) :
             return self.display
         def info(self) :
